@@ -8,7 +8,7 @@ class App < Sinatra::Base
      erb :super_hero
    end
 
-   post '/'
+   post '/' do
    binding.pry
      erb :team
    end
