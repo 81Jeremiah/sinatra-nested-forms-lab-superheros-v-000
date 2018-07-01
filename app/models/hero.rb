@@ -6,7 +6,7 @@ class Hero
     @name = attributes[:name]
     @power = attributes[:power]
     @bio = attributes[:biography]
-    @all << self
+    @@all << self
   end
 
   def self.all
